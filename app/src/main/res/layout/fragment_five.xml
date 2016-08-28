@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.diegoandres.myapplication.fragments.FiveFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/ImageView"
+        android:background="@drawable/ic_tab_ld"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+
+.............................................................................................................................................................................................
+
+
+
+
+
+
+                                                                                                       Líderes del Mañana es el programa para la formación de líderes transformadores con impacto social, enfocado a jóvenes brillantes que requieren apoyo financiero al 100% para estudiar una carrera en el Tecnológico de Monterrey. Captamos al mejor talento de México, lo acogemos en el Tec de Monterrey, le damos una formación para el éxito y lo liberamos con un enorme potencial transformador. Los jóvenes distinguidos adquieren un compromiso de reciprocidad con otros jóvenes, sus familias y sus comunidades. La meta es poder becar a 1,250 alumnos durante los siguientes 5 años, alumnos que contribuirán de manera importante al desarrollo económico, político y social de nuestro país. Este año las becas están siendo financiadas gracias a la generosidad y el apoyo de los miles de compradores y colaboradores de Sorteos TEC pero queremos y debemos ir creciendo este programa a través de una campaña filantrópica a nivel nacional"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ImageView" />
+
+    </ScrollView>
+</RelativeLayout>
